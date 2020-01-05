@@ -16,7 +16,7 @@ if number.startswith('0b') and base == 10:
 
 x = int(number, base)
 
-print('base 2: ', bin(x))
-print('base 8: ', oct(x))
+print('base 2:  ', bin(x))
+print('base 8:  ', oct(x))
 print('base 10: ', x)
 print('base 16: ', hex(x))
