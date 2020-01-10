@@ -32,7 +32,7 @@ void test_show_bytes(int val) {
     show_pointer(pval);
 }
 
-void e2_5() {
+void exercise5() {
     int val = 0x87654321;
     byte_pointer valp = (byte_pointer) &val;
     show_bytes(valp, 1);
@@ -42,6 +42,6 @@ void e2_5() {
 
 int main(int argc, char *argv[]) {
     // test_show_bytes(12345);
-    e2_5();
+    exercise5();
     return 0;
 }
